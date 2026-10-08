@@ -16,7 +16,7 @@
 [ -n "$BASH_VERSION" ] || { echo "Run this with bash: sudo bash $0 check"; exit 1; }
 
 OMEKA=${OMEKA:-/var/www/html}       # the site's DocumentRoot (the folder that contains db.ini)
-SITE_URL=${SITE_URL:-http://omeka-sc-dev.its.appstate.edu/}
+SITE_URL=${SITE_URL:-http://152.10.8.17/}
 VERSION=3.2.2
 ZIP_SHA256=5b93846f15614ea32b105f748286c4e53b74c295130cc47f551330cb323d3e68
 PLUGIN_INDEX=${PLUGIN_INDEX:-https://omeka.org/add-ons/json/classic_plugin.json}
